@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Nunito Sans',sans-serif;
+    
+}
+.nav a:hover {
+    border-bottom: 2px white solid;
+}
+h1{
+    font-family: 'Cormorant Unicase',serif;
+}
+h2{
+    font-family: 'Cormorant Unicase',serif;
+    font-weight: bold;
+}
+.changeColor {
+    background-color: #7f0b28;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.changeColor a{
+    color: #000;
+}
+.changeColor a:hover{
+    color: white;
+}
+.banner-custom{
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/ayomide5b3os/sam-burriss-8wbxjJBrl3k-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+                                  /*  BUTTONS  */
+.first-btn {
+    font-family: 'Nunito Sans',sans-serif;
+    border: none;
+    color: white;
+    background-color: white ;
+    width: 171.31px;
+    height: 50.03px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.first-btn:hover{
+    transform: translateX(-15px);
+}
+.sec-vtn{
+    font-family: 'Nunito Sans',sans-serif;
+    border-style: solid;
+    color: white;
+    background-color: white ;
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 140px;
+    
+}
+.end-mtn{
+    font-family: 'Nunito Sans',sans-serif;
+    border-style: solid;
+    color: white;
+    background-color: white ;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 25px;
+}
+                                      /*  */
+.About{
+    font-family: 'Nunito Sans',sans-serif;
+} 
+#para{
+    font-family:'Nunito Sans',sans-serif;
+}     
+.pic3{
+    width: 695px;
+    height: 750px;
+}
+.banner-custom1{
+    background-image: url(images/banner1_files/pic4.jpg);
+    height: 80vh;
+    width: 100%;  
+    background-size: cover;
+    background-position: center; 
+}     
+.line{
+    font-family: 'Cormorant Unicase',serif ;
+    font-size: 24px;
+    margin: 10px;
+}        
+.red{
+    color:#7f0b28;
+}
